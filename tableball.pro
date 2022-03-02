@@ -16,11 +16,35 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    gameevent.cpp \
+    gamemoveobject.cpp \
+    gameobject.cpp \
+    gamestaticimage.cpp \
+    gametextview.cpp \
+    gametrigger.cpp \
+    gameview.cpp \
+    gameviewobject.cpp \
     main.cpp \
-    gamewindow.cpp
+    gamewindow.cpp \
+    normalball.cpp \
+    triggeraxisrect.cpp \
+    triggercircle.cpp \
+    triggerpoint.cpp
 
 HEADERS += \
-    gamewindow.h
+    gameevent.h \
+    gamemoveobject.h \
+    gameobject.h \
+    gamestaticimage.h \
+    gametextview.h \
+    gametrigger.h \
+    gameview.h \
+    gameviewobject.h \
+    gamewindow.h \
+    normalball.h \
+    triggeraxisrect.h \
+    triggercircle.h \
+    triggerpoint.h
 
 FORMS += \
     gamewindow.ui
